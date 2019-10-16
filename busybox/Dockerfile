@@ -1,4 +1,4 @@
-FROM busybox
+FROM busybox:latest
 MAINTAINER Veer Muchandi veer@redhat.com
 ADD ./init.sh ./
 EXPOSE 8080
